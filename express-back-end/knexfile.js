@@ -10,7 +10,7 @@ module.exports = {
       password: "development",
       hostname: "localhost",
       port: 5432,
-      ssl: true
+      ssl: false
     }
   },
 
