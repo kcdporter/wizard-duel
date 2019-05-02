@@ -1,7 +1,7 @@
 .notificationBar {
-    color:pink;
+    /* color:pink; */
     height: 300px;
     width: 100%;
-    background:white;
+    /* background:white; */
     overflow: scroll;
 }
