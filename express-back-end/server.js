@@ -46,7 +46,7 @@ App.get('/api/users', (req, res) => {
 })
 
 App.post('/api/newuser?', (req, res) => {
-  knex('users').insert({ id: randomId(), username: req.query.username, email: `wizard@wizardduel.jams`, password: 123, experience_points: 0, wins: 0, losses: 0 })
+  knex('users').insert({ id: randomId(), username: req.query.username, email: `wizard@wizardduel.jams`, password: 123, experience_points: 100, wins: 0, losses: 0 })
   .then(console.log(`${req.query.username} added`));
 })
 
